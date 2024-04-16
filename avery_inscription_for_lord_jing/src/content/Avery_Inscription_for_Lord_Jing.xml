@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="ch">Han Gu Yizhou Taishou Beihai Xiang Jing Jun Ming漢故益州太守北海相景君銘</title>
+            <title xml:lang="en">Inscription for Han Former Governor of Yi Region and Counselor of Beihai Commandery Lord Jing</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>This is a transcription of dirge from Han dynasty, edited by Avery Clare. </p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl> 
+               <author>Xu Yuli徐玉立（editor）</author>
+               <publisher>Henan meishu chubanshe河南美術出版社</publisher>
+               <pubPlace>Zhengzhou鄭州</pubPlace>
+               <title>Hanbei quanji漢碑全集</title>
+               <date>2006</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <msDesc>
+           <msIdentifier><institution>information</institution></msIdentifier>
+           <physDesc>
+              <objectDesc form="inscription">
+                <supportDesc>
+                   <extent>
+                    <dimensions unit="cm">
+                       <height>230</height>
+                       <width>78</width>
+                    </dimensions>
+                 </extent>       
+                </supportDesc>
+                 <layoutDesc>
+                    <layout columns="17">
+                       <p>Each column contains 33 characters.</p>
+                    </layout>
+                 </layoutDesc>
+              </objectDesc>
+              <handDesc>
+                 <p>Written in <term>clerical script隸書</term>. The epigraph is written in <term>seal script篆書.</term></p>
+              </handDesc>
+           </physDesc>
+           <history>
+              <origin>
+                 <p>Established in <origPlace>Rencheng任城 county</origPlace> in <origDate>143 AD.</origDate></p>
+              </origin>
+           </history>
+        </msDesc>
+      <div type="preface" n="A">
+        <lg type="date">
+           <l n="1"><milestone unit="column" n="1"/>惟漢安二年，仲秋□□，故北海任城景府君卒。</l>
+        </lg>
+        <lg type="grief_expression">
+           <l n="2">歍歔哀哉！</l>
+           <l n="3">國□□寶，英彥失<rhyme>疇</rhyme></l>
+          <l n="4">列宿<milestone unit="column" n="2"/>虧精，晚學後<rhyme>時</rhyme></l>
+           <l n="5">于何穹倉，布命授<rhyme>期</rhyme></l>
+           <l n="6">有生有死，天寔爲<rhyme>之</rhyme></l>
+           <l n="7">豈夫仁哲，攸剋不<rhyme>遺</rhyme></l>
+        </lg>
+        <lg type="context">
+           <l n="8">於是<name type="community">故吏</name>/
+           line 3   <name type="community">諸生</name>相與論曰</l>
+           <l n="9">上世羣后</l>
+           <l n="10">莫不流光□於無窮，垂芬燿於書篇</l>
+           <l n="11">身歿而行明，體亡而
+           line 4 名存</l>
+           <l n="12">或著形像於列圖，或毄頌於管弦</l>
+           <l n="13">後來詠其烈，竹帛敘其勳</l>
+           <l n="14">乃作誄曰</l>
+        </lg>
+      </div>
+      <div type="main_content" n="B">
+        <lg type="virtue">
+           <l n="15">伏惟明府，受質自<rhyme>天</rhyme></l>
+           <l n="16">孝弟淵懿，帥禮蹈<rhyme>仁</rhyme></l>
+           <l n="17">根道核蓺，抱淑守<rhyme>真</rhyme></l>
+           <l n="18">皛白清方，勊己治<rhyme>身</rhyme></l>
+           <l n="19">寔渘寔剛，乃武乃<rhyme>文</rhyme></l>
+        </lg>
+        <lg type="deeds">
+           <l n="20">遵考孝謁，假階司<rhyme>農</rhyme></l>     
+           <l n="21">流惪<name type="city">元城</name>，興利恵<rhyme>民</rhyme></l>
+           <l n="22">強衙改節，微弱蒙<rhyme>恩</rhyme></l>
+           <l n="23">威立澤宣，化行如<rhyme>神</rhyme></l>
+           <l n="24">帝嘉厥功，授以苻<rhyme>命</rhyme></l>
+           <l n="25">守郡<name type="city">益州</name>，路遐攣<rhyme>親</rhyme></l>
+           <l n="26">躬伯遜讓，夙宵朝<rhyme>廷</rhyme></l>
+           <l n="27">建筴忠讜，辨秩東<rhyme>衍</rhyme></l>
+           <l n="28">璽追嘉錫，據<name type="city">北海</name><title type="official_title"><rhyme>相</rhyme></title></l>
+           <l n="29">部城十九，鄰邦歸<rhyme>向</rhyme></l>
+           <l n="30">分明好𢝏，先以敬<rhyme>讓</rhyme></l>
+           <l n="31">殘僞易心，輕黠踰<rhyme>競</rhyme></l>
+           <l n="32">鴟䲷不鳴，分子還<rhyme>養</rhyme></l>
+           <l n="33">元元鰥寡，蒙祐以<rhyme>寧</rhyme></l>
+           <l n="34">蓄道脩悳，□祉以<rhyme>榮</rhyme></l>
+           <l n="35">紛紛令儀，明府體之</l>
+           <l n="36">仁義道術，明府膺之</l>
+           <l n="37">黃朱邵父，明府三之</l>
+           <l n="38">台輔之任，明府宜之</l>
+         </lg>
+         <lg type="death">
+           <l n="39">以病被徵，委位致<rhyme>仕</rhyme></l>
+           <l n="40">民□思慕，遠近搔<rhyme>首</rhyme></l>
+            <l n="41"><name type="community">農夫</name>醳耒，<name type="community">商人</name>空<rhyme>市</rhyme></l>
+           <l n="42">隨轝飲<rhyme>淚</rhyme></l>
+           <l n="43">奈何朝廷，奪我慈<rhyme>父</rhyme></l>
+           <l n="44">去官未旬，病乃困<rhyme>危</rhyme></l>
+           <l n="45">珪璧之質，臨卒不<rhyme>回</rhyme></l>
+           <l n="46">歔欷霣絕，奄忽不<rhyme>遲</rhyme></l>
+            <l n="47"><name type="person">孝子</name>憉𢣦，顛倒剝<rhyme>摧</rhyme></l>
+           <l n="48">遂不勊寤，永潛長<rhyme>歸</rhyme></l>
+         </lg>
+         <lg type="grief_expression">
+            <l n="49"><name type="community">州里鄉黨</name>，隕涕奔<rhyme>哀</rhyme></l>
+            <l n="50"><name type="community">故吏</name>忉怛，歔欷低<rhyme>佪</rhyme></l>
+            <l n="51"><name type="community">四海冠盖</name>，驚𢝆傷<rhyme>褢</rhyme></l>
+            <l n="52">大命所期，寔惟天<rhyme>授</rhyme></l>
+            <l n="53">明主設位，明府不<rhyme>就</rhyme></l>
+            <l n="54"><name type="person">臣子</name>欲養，明府弗<rhyme>留</rhyme></l>
+            <l n="55">歍歔哀哉</l>
+         </lg>
+       </div>
+       <div type="coda" n="C">
+         <lg type="grief_expression" style="Sao_style">
+           <l n="56">亂曰：</l>
+           <l n="57">考積幽穸，表至□兮</l>
+           <l n="58">□□□□，翔議郎兮</l>
+           <l n="59">再命虎將，綏元元兮</l>
+           <l n="60">規策榘謨，主忠信兮</l>
+           <l n="61">羽衛藩屏，撫萬民兮</l>
+           <l n="62">□□□□，恩彌盛兮</l>
+           <l n="63">宜參鼎𨋥，堅榦楨兮</l>
+           <l n="64">不永麋壽，棄臣子兮</l>
+           <l n="65">仁敦海岱，著甘棠兮</l>
+           <l n="66">刊石勒銘，□不亡兮</l>
+         </lg>
+       </div>
+        <div resp="Avery Clare" type="translation" subtype="preface" n="A">
+           <lg type="date">
+              <l n="1">In the second year of Han’an Reign<date when="0143" calendar="Gregorian"> (143 CE)</date>,
+                 mid-autumn □□,
+                 lord Jing, former governor of Ren county in Beihai Commandery passed away.
+              </l>
+           </lg>
+           <lg type="grief_expression">
+              <l n="2">Alas, how grievous!</l>
+              <l n="3">The empire □□ treasure, the outstanding scholars lost their compeer.</l>
+              <l n="4">All the constellations lost the essence, the latter scholars and the pupils are late in time.</l>
+              <l n="5">From where does the Heaven, arranges/promulgates the Fate and confers the term.</l>
+              <l n="6">There is life and there is death, Heaven really governs it.</l>
+              <l n="7">How could that benevolent sage, be cut down/subdued and not be left.</l>
+           </lg>
+           <lg type="context">
+              <l n="8">Therefore the former subordinates and all the students discussed with each other, said:</l>
+              <l n="9">The high officials in the ancient times,</l>
+              <l n="10">none of them does not shed light □ on the infinity, 
+                 droop fragrant (reputation) and glory on the books/writings and pieces/bamboos.</l>
+              <l n="11">The self is dead whereas the deeds are expounded, 
+                 the body is expired whereas the name is preserved.</l>
+              <l n="12">Some (of them) have the figures drawn on the pictures, 
+                 some have the odes hit by the winds and strings</l>
+              <l n="13">The posterity chants their contributions, the bamboos and silks narrate their exploits.</l>
+              <l n="14">Then composed the dirge, says:</l>
+           </lg>
+        </div>
+        <div resp="Avery Clare" type="translation" subtype="main_content" n="B">
+           <lg type="virtue" rhyme="ababa">
+              <l n="15">Prostrating and thinking of Enlightened Repositor,  (he) received substance from Heaven.</l>
+              <l n="16">Faithful and deeply virtuous, (he) followed the rituals and carried out humaneness.</l>
+              <l n="17">(He) pursued the Way and followed the artistry/standard/norm, cherished the pureness and kept the natural property.</l>
+              <l n="18">Bright and white, clear and upright, (he) subdued the self and cultivated himself.</l>
+              <l n="19">Truly he was gentle and truly he was firm, he is martial and he is literate.</l>
+           </lg>
+           <lg type="deeds">
+              <l n="20">Followed his father's advice and attended the filial examination, 
+                 was given the (informal) official rank of Chamberlain for the National Treasury.</l>     
+              <l n="21">Shed virtue to Yuan-cheng, procured profits and benefitted the people.</l>
+              <l n="22">The brutal bailiffs improved the courtesy, the humble and the feeble received the bounty.</l>
+              <l n="23">The prestige was established and the grace was propagated, cultivated conducts as if a deity.</l>
+              <l n="24">The emperor approbated his deeds, appointed him with the tally and decree.</l>
+              <l n="25">Guarded the commanderies of Yi Region, the journey was far and (he was) concerned of the parents.</l>
+              <l n="26">He bent to the elders and modestly declined, day and night (towards) the imperial court.</l>
+              <l n="27">(He) proposed official documents/stratagems with loyal and upright advice, 
+                 distinguished the order in the eastern marsh/hillside (spring ploughing).</l>
+              <l n="28">The imperial signet superadded the official appointment, 
+                 (he) occupied the position of the Counselor of Beihai Commandery</l>
+              <l n="29">Commanded nineteen cities, the neighboring countries are inclining toward (him).</l>
+              <l n="30">Clearly demarcated the preferences and the wicked, prioritized with respect and concession.</l>
+              <l n="31">The demolished and the falsified changed mind, the light and cunning exceeded competition.</l>
+              <l n="32">The owls does not cry, the parted children returned to serve/support the parents. </l>
+              <l n="33">The multitude/the common people and the widowers and the widows, 
+                 be granted the blessings, by which are in the serenity/peaceful.</l>
+              <l n="34">Accumulating the Way and cultivating virtue, □ blessedness with prosperity.</l>
+              <l n="35">The myriad esteemed rituals, Enlightened Repositor incarnated them.</l>
+              <l n="36">Benevolence and righteousness and the Wat and tactics, Enlightened Repositor embraced them.</l>
+              <l n="37">Huang Zhu/The sagacious emperors and Father Shao, Enlightened Repositor joined to be the third of them.</l>
+              <l n="38">The official position of the Three Dukes and the buttresses, Enlightened Repositor is suitable for them.</l>
+           </lg>
+           <lg type="death">
+              <l n="39">In the illness he was summoned, (he) entrusted the official post and resigned.</l>
+              <l n="40">The people □ thought (of him) ardently, far and near were scratching the heads agitated.</l>
+              <l n="41">The farmers put down the plow, the tradesmen left the markets vacant, </l>
+              <l n="42">with every entirety swallowed the tears.</l>
+              <l n="43">How come the imperial court, deprived me of my benevolent father?</l>
+              <l n="44">Within ten days after (he) quit the office, the illness became hindering and critical.</l>
+              <l n="45">The substance of jade-tablet and jade-disc/circlet,  on the verge of death (it) is not returning.</l>
+              <l n="46">Wept woefully for (his) perish, all of a sudden (he) deceased with no delay.</l>
+              <l n="47">The filial sons crashed and collided, toppled and grieved and torn apart.</l>
+              <l n="48">After all (he) did not  overcome the sleepiness, 
+                 permanently submerged and perpetually resort (to the underworld).</l>
+           </lg>
+           <lg type="grief_expression">
+              <l n="49">The fellow villagers of the households and parishes in the prefecture, 
+                 falling tears and dart to the mourning rite.</l>
+              <l n="50">The former subordinates are in anguish, sobbing and hovering.</l>
+              <l n="51">The caps and (carriage) canopies of the whole country, were startled and sorely grieved, full of sorrow.</l>
+              <l n="52">What the Fate is fixed, truly it is conferred by Heaven. </l>
+              <l n="53">The enlightened ruler set up the position, Enlightened Repositor did not take it.  </l>
+              <l n="54">The vassals desire to serve, Enlightened Repositor would not stay.</l>
+              <l n="55">Alas, how grievous!</l>
+           </lg>
+        </div>
+        <div resp="Avery Clare" type="translation" subtype="coda" n="C">
+           <lg type="grief_expression">
+              <l n="56">The coda says: </l>
+              <l n="57">Examining the accumulation and the dusky night (tomb), to express the extreme □.Alas.</l>
+              <l n="58">□□□□, soared the (spirit of) Court Gentleman for Consultation. Alas.</l>
+              <l n="59">Appointed the tiger-like general/brave general gain, soothed the common people. Alas.</l>
+              <l n="60">The norm-like stratagems and rule-like advice, regarded allegiance and faith as the most important.</l>
+              <l n="61">Assisted the guardians and defended the shields, consoled the myriad people. Alas.</l>
+              <l n="62">□□□□, the grace is more and more brimful. Alas.</l>
+              <l n="63">Suitable to join the tripod vassals, to fasten/buttress the trunk of the pile. Alas.</l>
+              <l n="64">Not eternal is the longevity, left the vassals behind. Alas.</l>
+              <l n="65">The benevolence is profound (reaching toward) oceans and mountains(/Bohai and Mountain Tai), 
+                 (people) composed Gan Tang. Alas.</l>
+              <l n="66">Engraved on the stone and carved the inscriptions, □ would not perish. Alas.</l>
+           </lg>
+        </div>
+     </body>
+  </text>
+</TEI>
